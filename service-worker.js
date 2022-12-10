@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Numan-iqbal/reactfriendapp.git/precache-manifest.09d21ed61fa37a021154249435df9918.js"
+  "/reactfriend-app/precache-manifest.92fa259fb9e45e61cf8a813b4ac0f15a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Numan-iqbal/reactfriendapp.git/index.html", {
+workbox.routing.registerNavigationRoute("/reactfriend-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
